@@ -6,12 +6,12 @@ import org.junit.Test;
 
 public class GraphicalObjectTest {
 
-    private BackgroundRegistry registry;
+    private BackgroundRegistry<BackgroundObject, BackgroundObjectType> registry;
 
     @Before
     public void setup()
     {
-        registry = new BackgroundRegistry();
+        registry = new BackgroundRegistry<>();
         BackgroundObject tree = new BackgroundObject(1, 2, 3, 4, BackgroundObjectType.TREE);
         registry.register(BackgroundObjectType.TREE, tree);
 
@@ -22,7 +22,7 @@ public class GraphicalObjectTest {
     @Test
     public void testCloneObject()
     {
-        BackgroundObject o1 = registry.getBgObj(BackgroundObjectType.BENCH);
+        BackgroundObject o1 = registry.getBgEntity(BackgroundObjectType.BENCH);
         BackgroundObject clone = o1.clone();
 
         Assert.assertNotNull("Should not be null if works as expected", clone);
@@ -36,7 +36,7 @@ public class GraphicalObjectTest {
     @Test
     public void testPrototypeWithRegistry()
     {
-        BackgroundObject prototype = registry.getBgObj(BackgroundObjectType.TREE);
+        BackgroundObject prototype = registry.getBgEntity(BackgroundObjectType.TREE);
         Assert.assertNotNull(prototype);
 
         BackgroundObject clone = prototype.clone();
