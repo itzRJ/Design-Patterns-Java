@@ -64,10 +64,33 @@ public class Database {
             return this;
         }
 
+        //cleaner way for enum
+        public DatabaseBuilder withMySql()
+        {
+            this.database.type = DatabaseType.MYSQL;
+            return this;
+        }
+
+        public DatabaseBuilder withOracle()
+        {
+            this.database.type = DatabaseType.ORACLE;
+            return this;
+        }
+
+        public DatabaseBuilder withMongoDB()
+        {
+            this.database.type = DatabaseType.MONGODB;
+            return this;
+        }
+
         // Step 4 - Create a build method to return the outer class object
         public Database build()
         {
-            //can add validations before returning the database object
+            /*
+             * here we can add validations before returning the database object
+             * eg: if name is null then we can throw invalid config exception
+             */
+
             return new Database(this.database.name, this.database.host, this.database.port, this.database.type);
         }
 
