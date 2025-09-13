@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factory.simplefactory;
 
 import creational.factory.button.Button;
 import creational.factory.button.PlatformType;
