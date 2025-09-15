@@ -1,4 +1,4 @@
-package creational.functional;
+package creational.factory;
 
 import creational.factory.button.RectagularButton;
 import creational.factory.factorymethod.GenericButtonFactory;
