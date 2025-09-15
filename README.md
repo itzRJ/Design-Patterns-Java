@@ -1,4 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17-orange)
+![Build](https://github.com/itzRJ/Design-Patterns-Java/actions/workflows/maven.yml/badge.svg)
+
 
 # 🎯 Design Patterns in Java – Rahul Jhamb
 
@@ -13,14 +15,15 @@ Each pattern is placed under its respective category (Creational, Structural, Be
 ## 📌 Progress
 
 ### Creational Patterns
-- [x] Prototype + Registry
-- [x] Builder
-- [x] Abstract Factory
-- [x] Factory Method
-- [x] Singleton
+- [x] [Singleton](./src/main/java/creational/singleton)
+- [x] [Builder](./src/main/java/creational/builder)
+- [x] [Prototype + Registry](./src/main/java/creational/prototype)
+- [x] [Simple Factory](./src/main/java/creational/factory/simplefactory)
+- [x] [Factory Method](./src/main/java/creational/factory/factorymethod)
+- [x] [Abstract Factory](./src/main/java/creational/factory/abstractfactory)
 
 ### Structural Patterns
-- [ ] Adapter
+- [ ] Adapter (In-progress)
 - [ ] Composite
 - [ ] Proxy
 
