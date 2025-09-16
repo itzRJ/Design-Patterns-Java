@@ -1,7 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Build](https://github.com/itzRJ/Design-Patterns-Java/actions/workflows/maven.yml/badge.svg)
 
-
 # 🎯 Design Patterns in Java – Rahul Jhamb
 
 Welcome to my curated repository of Java design pattern implementations. This repo demonstrates hands-on examples of core design patterns using **clean code**, **testable structure**, and real-world analogies where applicable.
@@ -23,7 +22,10 @@ Each pattern is placed under its respective category (Creational, Structural, Be
 - [x] [Abstract Factory](./src/main/java/creational/factory/abstractfactory)
 
 ### Structural Patterns
-- [ ] Adapter (In-progress)
-- [ ] Composite
-- [ ] Proxy
+- [x] Adapter 
+- [ ] Facade
+- [ ] Decorator(In-progress)
 
+### Behavioral Patterns
+- [ ] Strategy
+- [ ] Observer
