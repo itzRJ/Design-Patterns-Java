@@ -22,7 +22,7 @@ Each pattern is placed under its respective category (Creational, Structural, Be
 - [x] [Abstract Factory](./src/main/java/creational/factory/abstractfactory)
 
 ### Structural Patterns
-- [x] Adapter 
+- [x] [Adapter](./src/main/java/structural/adapter) 
 - [ ] Facade
 - [ ] Decorator(In-progress)
 
