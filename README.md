@@ -27,5 +27,5 @@ Each pattern is placed under its respective category (Creational, Structural, Be
 - [ ] Facade (in progress)
 
 ### Behavioral Patterns
-- [x] [Strategy] (./src/main/java/behavioral/strategy)
+- [x] [Strategy](./src/main/java/behavioral/strategy)
 - [x] [Observer](./src/main/java/behavioral/observer)
