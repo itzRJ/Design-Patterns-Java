@@ -22,6 +22,8 @@ public class TextEditorDecoratorTest {
     public void testCapitalizeDecorator() {
         TextEditor textEditor = new CapitalizeDecorator(new SimpleTextEditor("hello world"));
         assertEquals("Hello World", textEditor.getText());
+        textEditor = new CapitalizeDecorator(new LowercaseDecorator(new SimpleTextEditor("hELLO wORLD")));
+        assertEquals("Hello World", textEditor.getText());
     }
 
     @Test

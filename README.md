@@ -24,8 +24,8 @@ Each pattern is placed under its respective category (Creational, Structural, Be
 ### Structural Patterns
 - [x] [Adapter](./src/main/java/structural/adapter)
 - [X] [Decorator](./src/main/java/structural/decorator)
-- [ ] Facade (In-progress)
+- [ ] Facade 
 
 ### Behavioral Patterns
-- [ ] Strategy
-- [ ] Observer
+- [ ] Strategy (In-progress)
+- [x] [Observer](./src/main/java/behavioral/observer)
