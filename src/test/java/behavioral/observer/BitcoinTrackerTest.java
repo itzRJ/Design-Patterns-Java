@@ -1,7 +1,5 @@
-package behavioral;
+package behavioral.observer;
 
-import behavioral.observer.BitcoinTracker;
-import behavioral.observer.EmailService;
 import behavioral.observer.models.Bitcoin;
 import org.junit.Before;
 import org.junit.Test;
