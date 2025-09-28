@@ -13,6 +13,12 @@ Use Cases -
 
 ### UML Diagram
 
+For creating the UML diagram, we will follow these steps:
+1. Download plantuml jar from [PlantUML](http://plantuml.com/download).
+2. Create a text file with `.puml` extension and add the PlantUML code.
+3. Use the command `java -jar plantuml.jar -tpng <filename>.puml` to generate the UML diagram in PNG format.
+
+
 We will use PlantUML to create the UML diagram. Below is the PlantUML code for a sample scenario from a tuition academy:
 
 ```plantuml
@@ -50,4 +56,6 @@ Instructor --> UC1a
 @enduml
 ```
 
-![UML Diagram](src/main/resources/umlsample/TuitionAcademy.png)
+### Generated UML Diagram
+
+![UML Diagram](TuitionAcademy.png)
