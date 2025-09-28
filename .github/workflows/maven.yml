@@ -39,7 +39,7 @@ jobs:
           path: ./src/main/resources/
           message: "Render PlantUML files"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RJ_DP }}
   build:
     runs-on: ubuntu-latest
     steps:
