@@ -15,6 +15,7 @@ on:
       - '**.java'
       - 'pom.xml'
       - '.github/workflows/maven.yml'
+      - "**.puml"
   pull_request:
     branches: [ "master" ]
     paths:
