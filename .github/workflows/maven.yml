@@ -23,10 +23,22 @@ on:
       - '.github/workflows/maven.yml'
 
 jobs:
-  build:
-
+  generate_plantuml:
     runs-on: ubuntu-latest
-
+    name: plantuml
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: plantuml
+        id: plantuml
+        uses: grassedge/generate-plantuml-action@v1.5
+        with:
+          path: example
+          message: "Render PlantUML files"
+  build:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
