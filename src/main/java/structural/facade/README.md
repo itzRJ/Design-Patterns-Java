@@ -24,7 +24,7 @@ It acts as a **front door** to a set of classes, delegating the real work to the
 ---
 
 ## 🖥️ Real-World Analogy
-Think of a **Computer System** 🍽️.  
+Think of a **Computer System** 🖥️/💻.  
 For turning on a computer, you don’t need to understand how each component works (PSU, BIOS, OS, etc.). You just press the power button (Facade), and the system handles the rest.
 
 - Power Button -> Facade
